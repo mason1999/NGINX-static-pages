@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  frontend:
+    container_name: FRONTEND_DNS_NAME
+    build:
+      context: frontend/
+    image: frontend_image
+    ports:
+      - 80:80
